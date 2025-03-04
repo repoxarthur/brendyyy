@@ -1,0 +1,154 @@
+{
+    margin:0;
+}
+#header{
+    width:100%;
+   /* height:150px;*/
+    background-color:darkblue;
+    position:fixed;
+    z-index:2;
+}
+#nama{
+    color:white;
+    padding:20px;
+}
+#menubar{
+    width:100%;
+    height:60px;
+}
+.menu{
+    color:white;
+    width:130px;
+    list-style:none;
+    text-align:center;
+}
+#dafmen{
+    display:inline-flex;
+    margin-top:20px;
+}
+.menu:hover{
+    background-color:yellow;
+    color:black;
+    border-radius:5px;
+    cursor:pointer;
+}
+#menu-artikel{
+    display:none;
+}
+.menu:hover #menu-artikel{
+    display:block;
+    margin-left:-40px;
+}
+.artikel{
+    list-style:none;
+    padding-top:10px;
+    padding:10;
+}
+.artikel:hover{
+    background-color:darkgoldenrod;
+    border-radius:5px;
+    padding:10px;
+    color:white;
+}
+#nama{
+  font-family: "Shadows Into Light", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#menu-sosmed{
+    display:none;
+}
+.menu:hover #menu-sosmed{
+    display:block;
+    margin-left:-40px;
+}
+.sosmed{
+    list-style:none;
+    padding-top:10px;
+    padding:10px;
+}
+.sosmed:hover{
+    background-color:darkgoldenrod;
+    border-radius:5px;
+    padding:10px;
+    color:white;
+}
+#content{
+    width:100%;
+    height:700px;
+    background-color:darkgreen;
+    display:flex;
+}
+#side-menu{
+    width:20%;
+    height:700px;
+    background-color:darksalmon;
+}
+#isi{
+    width:80%;
+    height:700px;
+    background-color:darkkhaki;
+}
+#atas{
+    width:100%;
+    height:200px;
+    background-color:darkgoldenrod;
+    display:flex;
+    justify-content:space-around;
+}
+#bawah{
+    width:100%;
+    height:500px;
+    background-color:mediumseagreen;
+    display:flex;
+    justify-content:space-around;
+}
+.aha{
+    width:10%;
+    height:150px;
+    background-color:darkcyan;
+    margin-top:22px;
+    border-top-left-radius:50%;
+    border-bottom-left-radius:50%;
+    border-top-right-radius:50%;
+    border-bottom-right-radius:50%;
+}
+.ehe{
+    width:40%;
+    height:380px;
+    background-color:indianred;
+    margin-top:40px;
+}
+.pct{
+    width:100%;
+    height:150px;
+    border-top-left-radius:50%;
+    border-bottom-left-radius:50%;
+    border-top-right-radius:50%;
+    border-bottom-right-radius:50%;
+}
+.vid{
+    width:100%;
+    height:380px;
+}
+.gambar{
+    width: 80%;
+    height: 300px;
+    background-color: pink;
+    margin: auto;
+    display: flex;
+      
+}
+.giga{
+    width: 50%;
+    height: 150px;
+    margin: auto;
+    padding-bottom: 150;
+}
+.repo{
+    width: 50%;
+    height: 150px;
+    background-color: coral;
+    margin: auto;
+}
+ 
